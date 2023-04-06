@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Dashboard</h1>
+	<form id="dashboard-form">
+		<label for="room-input">Room:</label>
+		<input type="text" id="room-input" name="room" required>
+
+		<label for="building-input">Building Number:</label>
+		<input type="text" id="building-input" name="building" required>
+
+		<label for="grade-input">Grade Section:</label>
+		<input type="text" id="grade-input" name="grade" required>
+
+		<label for="location-input">Location:</label>
+		<input type="text" id="location-input" name="location" required>
+		<button id="location-button">Get Location</button>
+
+		<label for="message-input">Message:</label>
+		<textarea id="message-input" name="message"></textarea>
+
+		<button type="submit">Submit</button>
+	</form>
+
+	<script src="dashboard.js"></script>
+</body>
+</html>
